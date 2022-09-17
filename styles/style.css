@@ -20,7 +20,7 @@ header {
 #code {
   transform: translateX(20%);
   color: #06ce92e4;
-  text-shadow:#06c1ceef 1px 0px 3px;
+  text-shadow: #06c1ceef 1px 0px 3px;
 }
 li {
   display: inline-block;
@@ -59,7 +59,7 @@ h2 {
 }
 span {
   color: #06ce92ee;
-  text-shadow:#06c1ceef 0px 0px 5px;
+  text-shadow: #06c1ceef 0px 0px 5px;
 }
 p {
   line-height: 20px;
@@ -68,18 +68,28 @@ p {
 
 #fundo {
   width: 35rem;
-  height: ;
   transform: translateX(10%);
   box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
   border-radius: 30%;
 }
+
+#fundo:hover {
+  position: fixed;
+  transform: scale(101%);
+  margin-left: 55px;
+  transition: 0.8s;
+  cursor: pointer;
+  box-shadow: none;
+  border-style: none;
+}
+
 form {
   display: flex;
   flex-direction: column;
   width: 70%;
 }
 
-.campo:active{
+.campo:active {
   border-style: none;
 }
 form [type="submit"]:hover {
@@ -96,7 +106,7 @@ input {
   font-size: 15px;
 }
 
-#btn{
+#btn {
   margin-top: 20px;
   padding: 15px;
   border-radius: 20px;
@@ -109,7 +119,7 @@ input {
   font-size: bold;
 }
 
-#btn:hover{
+#btn:hover {
   transition: 0.3s;
   cursor: pointer;
   box-shadow: #09bd87e7 0px 0px 12px 3px;
@@ -123,7 +133,7 @@ input {
   text-shadow: #df5b09e6 1px 0px 3px;
 }
 
-#easterEgg{
+#easterEgg {
   visibility: hidden;
   color: rgba(255, 255, 0, 0.962);
   text-shadow: #09bd87e7 1px 0px 3px;

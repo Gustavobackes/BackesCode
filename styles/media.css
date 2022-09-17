@@ -24,6 +24,11 @@
     align-self: center;
     width: 80%;
   }
+  #btn {
+    align-self: center;
+    width: 100%;
+  }
+
   img {
     display: none;
   }
