@@ -1,4 +1,123 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: "Roboto";
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+#code {
+  transform: translateX(20%);
+  color: #06ce92e4;
+  text-shadow:#06c1ceef 1px 0px 3px;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  transition: 0.3s;
+  color: #06ce92e4;
+}
+#count {
+  border: solid 2px #06ce92e4;
+  padding: 10px;
+  border-radius: 15px;
+}
+#count:hover {
+  color: white;
+  background-color: #06ce92e4;
+  box-shadow: #09bd87e4 0px 0px 12px 3px;
+}
+h1 {
+  font-weight: 200;
+  margin-left: 50px;
+}
+main {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+}
+span {
+  color: #06ce92ee;
+  text-shadow:#06c1ceef 0px 0px 5px;
+}
+p {
+  line-height: 20px;
+  max-width: 500px;
+}
+
+#fundo {
+  width: 35rem;
+  height: ;
+  transform: translateX(10%);
+  box-shadow: rgb(255, 255, 255) 0px 0px 20px 10px;
+  border-radius: 30%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.campo:active{
+  border-style: none;
+}
+form [type="submit"]:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: #09bd87e7 0px 0px 12px 3px;
+}
+input {
+  margin-top: 20px;
+  padding: 15px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+#btn{
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  height: 45px;
+  width: 50%;
+  background-color: #06ce92e4;
+  color: white;
+  font-size: bold;
+}
+
+#btn:hover{
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: #09bd87e7 0px 0px 12px 3px;
+}
+
+#aviso {
+  display: block;
+  margin-top: 1rem;
+  color: rgba(255, 0, 0, 0.799);
+  text-shadow: #df5b09e6 1px 0px 3px;
 }
