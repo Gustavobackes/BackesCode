@@ -103,7 +103,7 @@ input {
   border: none;
   font-size: 15px;
   height: 45px;
-  width: 50%;
+  width: 35%;
   background-color: #06ce92e4;
   color: white;
   font-size: bold;
@@ -116,8 +116,16 @@ input {
 }
 
 #aviso {
+  visibility: hidden;
   display: block;
   margin-top: 1rem;
   color: rgba(255, 0, 0, 0.799);
   text-shadow: #df5b09e6 1px 0px 3px;
+}
+
+#easterEgg{
+  visibility: hidden;
+  color: rgba(255, 255, 0, 0.962);
+  text-shadow: #09bd87e7 1px 0px 3px;
+  font-size: small;
 }
